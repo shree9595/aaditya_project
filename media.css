@@ -1,0 +1,175 @@
+@media(max-width:900px) {
+    .grid-section {
+        flex-direction: column;
+        height: 100%;
+    }
+
+    .grid-section .img {
+        width: 100%;
+        margin-top: 1rem;
+    }
+
+    .grid-section .text {
+        width: 90%;
+        margin-bottom: 1rem;
+    }
+
+    .about .text {
+        padding-right: 0;
+    }
+
+    .section-heading span {
+        font-size: 20px;
+    }
+
+    .hero {
+        min-height: 100%;
+        max-height: 100%;
+        padding-top: 3rem;
+    }
+
+    .hero .text h2 {
+        font-size: 40px;
+        line-height: 40px;
+        font-weight: 700;
+        letter-spacing: -0.09rem;
+    }
+
+    .hero .img {
+        padding: 1rem;
+    }
+
+    .hero .text span {
+        font-size: 18px;
+    }
+
+    .hero::after {
+        display: none;
+    }
+
+    header {
+        justify-content: initial;
+        max-width: 100%;
+    }
+
+    header .extrabtn {
+        display: none;
+    }
+
+    .nav ul {
+        position: fixed;
+        top: 0;
+        right: -100%;
+        width: 80%;
+        height: 100%;
+        display: block;
+        padding: 2rem 0;
+        box-shadow: rgba(0, 0, 0, 0.021) 0px 1px 4px;
+        background: rgb(226, 226, 226);
+        transition: all 0.3s ease-in-out;
+        z-index: 99;
+    }
+
+
+    .nav ul a {
+        text-align: center;
+        display: block;
+        color: #0d546e;
+        font-size: 20px;
+        padding: 1rem;
+        font-weight: 500;
+        text-transform: uppercase;
+    }
+
+    .active {
+        color: #00afef;
+        padding-top: 3rem;
+    }
+
+    .no {
+        width: 40%;
+    }
+
+    .testimonials {
+        padding: 4rem 1rem;
+    }
+
+    .menu img,
+    .cancel img {
+        display: block;
+    }
+
+    .contact .text {
+        width: 100%;
+    }
+
+    .input-element {
+        width: 90%;
+    }
+
+    textarea {
+        width: 90%;
+    }
+
+    .contact .extrabtn {
+        width: 90%;
+    }
+
+    .contact .section-heading {
+        margin-left: 2rem;
+    }
+
+    .contact .img img {
+        width: 100%;
+    }
+
+    .contact {
+        padding-top: 0;
+    }
+
+    footer {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .section-footer {
+        width: 100%;
+        padding-top: 1rem;
+    }
+
+    .section-footer:nth-child(2),
+    .section-footer:nth-child(3) {
+        width: 100%;
+    }
+
+    .section-footer:nth-child(2) a,
+    .section-footer:nth-child(3) a {
+        font-size: 18px;
+    }
+
+    .social {
+        text-align: center;
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .social img {
+        width: 50px;
+    }
+
+    .app {
+        text-align: center;
+        margin: auto;
+    }
+
+    #logo img {
+        width: 240px;
+    }
+
+}
+
+@media(max-width:500px) {
+    .comma {
+        display: none;
+    }
+}
